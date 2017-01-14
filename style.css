@@ -1,0 +1,306 @@
+.bttn,
+.bttn:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.bttn:hover {
+	text-decoration: none;
+	color: white;
+}
+
+/*****     HEADER     *****/
+.header-hero{
+	background-image: url(images/header-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+	padding-bottom:100px;
+}
+
+.main-header {
+	padding-top: 30px;
+}
+
+.main-header .row div:nth-child(n + 2) {
+	text-align: right;
+	color: black;
+	font-size: 18px;
+	font-family: "Open Sans";
+	font-weight: 300;
+	line-height: 44px;
+}
+
+.header-logo {
+	font-family: "Biko";
+	font-size: 28px;
+	font-weight: 400;
+}
+
+.bttn-top {
+	padding: 7px 25px;
+	border: 3px solid black;
+}
+
+.bttn-top:hover {
+		border: 3px solid white;
+}
+
+/*****     HERO     *****/
+.hero-logo {
+	padding-top: 50px;
+	text-align: right;
+}
+
+.header-logo a,
+.header-logo a:visited,
+.header-logo a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.header-logo a span {
+	vertical-align: middle;
+}
+
+.hero-title {
+	text-align: right;
+}
+.hero-title h1 {
+	margin-top: 10px;
+	margin-bottom: 40px;
+	font-weight: 300;
+	font-family: "Open Sans";
+	color: black;
+}
+
+.hero-text {
+	text-align: center;
+	color: black;
+	font-size: 22px;
+	font-family: "Open Sans";
+	font-weight: 300;
+}
+
+
+/*****     FEATURES     *****/
+.features {
+	font-family: "Open Sans";
+	background-color: #f4f9f7;
+	text-align: center;
+	padding-bottom: 35px;
+	font-weight: 300;
+}
+
+.features-text {
+	padding-top: 35px;
+	font-size: 22px;
+}
+
+.features-text h2 {
+	font-weight: 300;
+}
+
+.features-photo {
+	padding-top: 35px;
+}
+.features-photo  img{
+	margin: 0 auto;
+}
+
+
+
+/*****     BUY NOW     *****/
+.buy-now {
+	margin-top: 25px;
+	background-color: #f4f9f7;
+	line-height: 260px;
+}
+
+.buy-now .col-sm-6 *{
+	vertical-align: middle;
+}
+
+.logo-text {
+	padding-left: 15px;
+	font-size: 58px;
+	font-family: "Open Sans";
+	font-weight: 300;
+}
+
+.buy-now img {
+	vertical-align: center;
+}
+.bttn2 {
+	font-size: 30px;
+	font-family: "Open Sans";
+	font-weight: 300;
+	padding: 10px 25px;
+	background-color: #347a51;
+}
+
+
+/*****    FOOTER    *****/
+.main-footer {
+	background-image: url(images/footer-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+	padding-top:100px;
+	padding-bottom: 20px;
+	color: black;
+	font-size: 18px;
+	font-family: "Open Sans";
+	font-weight: 300;
+}
+
+.main-footer a {
+	line-height: 50px;
+}
+
+.socials {
+	display: flex;
+	justify-content: space-around;
+}
+.social {
+    background-image: url(images/social.png);
+    background-repeat: no-repeat;   
+}
+
+.facebook {
+    width: 50px;
+    height: 50px;
+    background-position: -4px -4px;
+}
+
+.gplus {
+    width: 50px;
+    height: 50px;
+    background-position: -60px -4px;
+}
+
+.twitter {
+    width: 50px;
+    height: 50px;
+    background-position: -4px -60px;
+}
+
+.copyright {
+	margin-top: 50px;
+}
+
+
+/*****     PAWS     *****/
+.paws {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 150px;
+
+	width: 1170px;
+}
+
+.paw1 {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	display: none;
+}
+
+.paw2 {
+	position: absolute;
+	top: 20px;
+	left: 150px;
+	transform: rotate(-10deg);
+	display: none;
+}
+
+.paw3 {
+	position: absolute;
+	top: 60px;
+	left: 250px;
+	transform: rotate(15deg);
+	display: none;
+}
+
+.paw4 {
+	position: absolute;
+	top: 130px;
+	left: 320px;
+	transform: rotate(45deg);
+	display: none;
+}
+
+.paw5 {
+	position: absolute;
+	top: 220px;
+	left: 350px;
+	transform: rotate(70deg);
+	display: none;
+}
+
+.paw6 {
+	position: absolute;
+	top: 300px;
+	left: 340px;
+	transform: rotate(100deg);
+	display: none;
+}
+
+/*****    MEDIA QUERIES     *****/
+@media screen and (max-width: 1200px) {
+	.features-text br{
+		display: none;
+	}
+	
+	.paws {
+	width: 970px;
+	}
+}
+@media screen and (max-width: 992px) {
+	 .hero-title,
+	 .hero-logo {
+	 	text-align: center;
+	 }
+	 .hero-text br{
+	 	display: none;
+	 }
+
+	.paws {
+	display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.buy-now {
+		line-height: 130px;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	.main-header div[class*='col']:last-child  {
+		padding-right: 5px;
+
+	}
+}
+
+
+/*****    STICKY FOOTER     *****/
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -255px;
+}
+
+.push {
+	height: 255px;
+}
+
+
+
+	
