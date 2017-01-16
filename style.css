@@ -1,3 +1,25 @@
+@font-face {
+    font-family: Biko;
+    src: url(fonts/biko/Biko_Regular.otf);
+    font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(fonts/Open Sans/opensans.ttf);
+    font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(fonts/Open Sans/opensanslight.ttf);
+    font-weight: 300;
+	font-style: normal;
+}
+
+
 .bttn,
 .bttn:visited {
 	color: black;
